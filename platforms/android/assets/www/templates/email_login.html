@@ -1,0 +1,21 @@
+<ion-view hide-nav-bar="true">
+  <ion-content class="padding">
+    <label class="item item-input" style="margin-top: 20vh;">
+	  <!-- <span class="input-label">Email</span> -->
+	  <input type="email" name="email" placeholder="email" ng-model="email"/>
+	</label>
+	<label class="item item-input">
+	  <!-- <span class="input-label">Password</span> -->
+	  <input placeholder="Password" type="password" name="password" ng-model="password"/>
+	</label>
+    <a ng-click="forgot()">
+    	<p style="width: 100%; font-size: 20px; text-align: center;">Forgot?<p/>
+    </a>
+    <a ng-click="login()">
+    	<p style="width: 100%; font-size: 20px; text-align: center;">Log In<p/>
+    </a>
+    <a ng-click="login_facebook()">
+    	<p style="width: 100%; font-size: 20px; text-align: center;">Log In with Facebook<p/>
+    </a>
+  </ion-content>
+</ion-view

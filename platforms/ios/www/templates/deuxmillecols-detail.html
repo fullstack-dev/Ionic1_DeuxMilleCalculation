@@ -1,0 +1,45 @@
+<ion-view view-title="{{title}}">
+  <ion-content class="">    
+    <p class="road-name">
+      {{roads_0_road_name}}
+    </p>
+
+    <div class="road-detail-1">
+      <div class="road-detail-2">
+        <div class="road-detail-3">
+          <p class="road-element-value">{{roads_0_altitude}}</p>
+          <p class="road-element-text">ALTITUDE</p>
+        </div>
+        <div class="road-detail-3">
+          <p class="road-element-value">{{roads_0_length}}</p>
+          <p class="road-element-text">LENGTH</p>  
+        </div>     
+      </div>
+      <div class="road-detail-2">
+        <div class="road-detail-3">
+          <p class="road-element-value">{{roads_0_vertical}}</p>
+          <p class="road-element-text">VERTICAL</p>
+        </div>
+        <div class="road-detail-3">
+          <p class="road-element-value">{{roads_0_avggradient}}</p>
+          <p class="road-element-text">AVG.GRADIENT</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-detail-1">
+      <div class="profile-detail-2" style="margin-right: 1px;">
+        <img ng-src={{member_avatar}} class="profile-image" />
+        <p class="profile-ftp">My forecasted time from {{member_ftp}}% of FTP</p>
+        <p class="profile-element-value">00:53:34</p>
+        <p class="profile-element-text">TARGET TIME</p>
+        <p class="profile-element-value">13.6 kph</p>
+        <p class="profile-element-text">TARGET SPEED</p>
+      </div>
+      <div class="profile-detail-2">
+        <img ng-src="../img/plus1.jpg" ng-click="image_change()" class="profile-image" />
+        <p class="profile-another-text">Compare to another rider</p>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
